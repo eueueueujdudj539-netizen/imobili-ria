@@ -18,7 +18,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
+  
+  <!-- FORCED VISIBILITY FIX (Overrides any cached hidden states) -->
+  <style>
+    .fade-in, .slide-up, .slide-left, .slide-right, .hero-title, .hero-subtitle {
+      opacity: 1 !important;
+      transform: none !important;
+      visibility: visible !important;
+    }
+  </style>
 </head>
 <body class="loading">
 
