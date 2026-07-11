@@ -1538,7 +1538,17 @@ p { margin-bottom: 1rem; }
   content: '→';
 }
 
-/* Blog Article Modal */
+/* --------------------------------------------------------
+   19. Blog Article Modal (.blog-modal)
+   -------------------------------------------------------- */
+.blog-modal { display: none; }
+
+.blog-modal.active {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .blog-modal .modal-content {
   max-width: 780px;
 }
