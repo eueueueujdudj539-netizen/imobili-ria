@@ -20,12 +20,14 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css?v=4">
   
-  <!-- FORCED VISIBILITY FIX (Overrides any cached hidden states) -->
+  <!-- FORCED VISIBILITY FIX -->
   <style>
-    .fade-in, .slide-up, .slide-left, .slide-right, .hero-title, .hero-subtitle {
+    * { opacity: 1 !important; visibility: visible !important; }
+    body { overflow: visible !important; }
+    section, header, footer, div, h1, h2, h3, h4, p, span, a, button, ul, li, img {
       opacity: 1 !important;
-      transform: none !important;
       visibility: visible !important;
+      transform: none !important;
     }
   </style>
 </head>
