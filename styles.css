@@ -1410,6 +1410,10 @@ p { margin-bottom: 1rem; }
   transform: rotate(180deg);
 }
 
+.faq-icon {
+  display: none;
+}
+
 .faq-answer {
   max-height: 0;
   overflow: hidden;
