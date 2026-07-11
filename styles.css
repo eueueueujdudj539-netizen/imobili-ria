@@ -357,7 +357,7 @@ p { margin-bottom: 1rem; }
       rgba(10, 14, 26, 0.70) 50%,
       var(--bg-primary) 100%
     ),
-    url('hero-bg.jpg') center / cover no-repeat;
+    url('images/hero-bg.png') center / cover no-repeat;
   padding: 0;
   overflow: hidden;
 }
